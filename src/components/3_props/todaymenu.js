@@ -1,4 +1,4 @@
-export const Menu = ({ car }) => {
+export const todaymenu = ({ car }) => {
   return (
     <>
       <h1>My Dream car</h1>

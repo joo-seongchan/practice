@@ -1,10 +1,12 @@
-import { Menu } from "./components/3_props/Menu";
-import { Db } from "./db/Db";
+import { Homework } from "./components/4_map/Homework";
+import { Frontlanguage } from "./db/Data";
+import { GlobalStyled } from "./style/GlobalStyled";
 
 const App = () => {
   return (
     <>
-      <Menu car={Db} />
+      <GlobalStyled />
+      <Homework ftl={Frontlanguage} />
     </>
   );
 };
