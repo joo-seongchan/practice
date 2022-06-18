@@ -38,13 +38,13 @@ const TextWrap = styled.div`
   padding: 20px;
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
   font-size: 30px;
   font-weight: 900;
   margin-bottom: 20px;
 `;
 
-const Con = styled.div`
+const Con = styled.p`
   font-size: 16px;
   line-height: 20px;
   font-weight: 100;
