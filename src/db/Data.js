@@ -1,3 +1,15 @@
+import {
+  faPersonRunning,
+  faChartLine,
+  faDumbbell,
+  faUtensils,
+  faLocationDot,
+  faStore,
+  faUser,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export const db = [
   {
     id: 0,
@@ -50,5 +62,56 @@ export const Frontlanguage = [
       "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.",
     img: "https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/3700/11366.png",
     link: "https://www.google.com/search?q=javascript&rlz=1C1AVFC_enKR847KR925&sxsrf=ALiCzsYcKMIWPeBwEPKdVq8Yk7RhAmQcXg%3A1655373473984&ei=of6qYpnbO8-joATczquYDw&oq=java&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIICAAQgAQQsQMyCwgAEIAEELEDEIMBMgQIABADMgQIABADMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyBAgAEAMyCwgAEIAEELEDEIMBMgQIABADOgcIIxCwAxAnOgsIABCABBCxAxCwAzoICC4QgAQQsAM6DggAEIAEELEDEIMBELADOgcIABCwAxADSgQIQRgBSgQIRhgAUIYDWJkDYOsHaAFwAHgAgAFmiAHMAZIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz",
+  },
+];
+
+export const griddb = [
+  {
+    id: 0,
+    title: "걸음",
+    sub: "걸음걸이 측정",
+    icon: <FontAwesomeIcon icon={faPersonRunning} />,
+  },
+  {
+    id: 1,
+    title: "기록/분석",
+    sub: "걸음걸이 기록/분석실입니다.",
+    icon: <FontAwesomeIcon icon={faChartLine} />,
+  },
+  {
+    id: 2,
+    title: "운동법",
+    sub: "운동방법을 알려드립니다.",
+    icon: <FontAwesomeIcon icon={faDumbbell} />,
+  },
+  {
+    id: 3,
+    title: "식단",
+    sub: "식단 및 레시피를 알려드립니다.",
+    icon: <FontAwesomeIcon icon={faUtensils} />,
+  },
+  {
+    id: 4,
+    title: "위치",
+    sub: "자녀의 위치를 알려드립니다.",
+    icon: <FontAwesomeIcon icon={faLocationDot} />,
+  },
+  {
+    id: 5,
+    title: "마켓",
+    sub: "온라인마켓 연결",
+    icon: <FontAwesomeIcon icon={faStore} />,
+  },
+  {
+    id: 6,
+    title: "프로필",
+    sub: "자신의 프로필을 알려드립니다.",
+    icon: <FontAwesomeIcon icon={faUser} />,
+  },
+  {
+    id: 7,
+    title: "설정",
+    sub: "",
+    icon: <FontAwesomeIcon icon={faGear} />,
   },
 ];
