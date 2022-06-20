@@ -1,3 +1,4 @@
+import { ClickEx } from "./5_Event/ClickEx";
 import { Homework } from "./components/4_map/Homework";
 // import { Clone } from "./components/practice/Clone";
 import { Grid } from "./components/practice/Grid";
@@ -10,7 +11,8 @@ const App = () => {
       <GlobalStyled />
       {/* <Homework ftl={Frontlanguage} /> */}
       {/* <Clone /> */}
-      <Grid grid={griddb} />
+      {/* <Grid grid={griddb} /> */}
+      <ClickEx />
     </>
   );
 };

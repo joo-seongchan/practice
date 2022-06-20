@@ -93,7 +93,6 @@ export const Grid = ({ grid }) => {
           <Icon>{box.icon}</Icon>
         </Wrap>
       ))}
-      s
     </Container>
   );
 };
