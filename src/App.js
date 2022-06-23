@@ -1,4 +1,6 @@
 import { ClickEx } from "./5_Event/ClickEx";
+import { Bganimation } from "./backgroundanimation/Bganimation";
+import { bubbletime } from "./backgroundanimation/bubbletime";
 import { Homework } from "./components/4_map/Homework";
 import { ClickHomework } from "./components/5_Click/ClickHomework";
 // import { Clone } from "./components/practice/Clone";
@@ -13,8 +15,9 @@ const App = () => {
       {/* <Homework ftl={Frontlanguage} /> */}
       {/* <Clone /> */}
       {/* <Grid grid={griddb} /> */}
-      <ClickEx />
-      <ClickHomework />
+      {/* <ClickEx />
+      <ClickHomework /> */}
+      <Bganimation time={bubbletime} />
     </>
   );
 };
