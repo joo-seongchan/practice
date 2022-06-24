@@ -8,6 +8,8 @@ import { Grid } from "./components/practice/Grid";
 import { Frontlanguage, griddb } from "./db/Data";
 import { TextStroke } from "./stroke/TextStroke";
 import { GlobalStyled } from "./style/GlobalStyled";
+import { Welcome } from "./welcome/Welcom";
+import { welcomedb } from "./welcome/welcomedb";
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
       <ClickHomework /> */}
       <Bganimation time={bubbletime} />
       <TextStroke />
+      <Welcome style={welcomedb} />
     </>
   );
 };

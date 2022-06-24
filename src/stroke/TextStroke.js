@@ -2,21 +2,21 @@ import styled, { keyframes } from "styled-components";
 
 const move = keyframes`
 0%{
-    stroke-dashoffset: 1300;
-    fill: black;
+    stroke-dashoffset: 0;
+    fill:red;
 }
-25%{
+/* 25%{
     fill: red;
-}
+} */
 50%{
-    stroke-dashoffset: 650;
+    stroke-dashoffset: 700;
     fill: blue;
 }
-75%{
+/* 75%{
     fill: yellow;
-}
+} */
 100%{
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 1400;
     fill: #1d1d1d;
 }
 `;
@@ -35,11 +35,12 @@ const Wrap = styled.div`
     stroke-width: 3px;
     stroke-linejoin: round;
     cursor: pointer;
-    stroke-dasharray: 650;
-    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
     fill: #1d1d1d;
     animation-duration: 3s;
     animation: ${move} 3s linear;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
+    /* animation-fill-mode: forwards; */
     /* display: none; */
   }
 `;
@@ -49,9 +50,9 @@ export const TextStroke = () => {
     <Wrap>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="1180"
+        width="620"
         height="290"
-        viewBox="0 0 1150 290"
+        viewBox="0 0 620 290"
       >
         <text
           id="양수영_주성찬"
@@ -62,7 +63,7 @@ export const TextStroke = () => {
           font-weight="800"
         >
           <tspan x="0" y="0">
-            JAVASCRIPT
+            KIAN84
           </tspan>
         </text>
       </svg>

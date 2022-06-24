@@ -1,0 +1,18 @@
+export const welcomedb = [
+  { id: 1, style: 1 },
+  { id: 2, style: 2 },
+  { id: 3, style: 3 },
+  { id: 4, style: 4 },
+  { id: 5, style: 5 },
+  { id: 6, style: 6 },
+  { id: 7, style: 7 },
+  { id: 8, style: 8 },
+  { id: 9, style: 9 },
+  //   { id: 10, style: 10 },
+  //   { id: 11, style: 11 },
+  //   { id: 12, style: 12 },
+  //   { id: 13, style: 13 },
+  //   { id: 14, style: 14 },
+  //   { id: 15, style: 15 },
+  //   { id: 16, style: 16 },
+];
