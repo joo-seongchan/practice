@@ -6,6 +6,7 @@ import { ClickHomework } from "./components/5_Click/ClickHomework";
 // import { Clone } from "./components/practice/Clone";
 import { Grid } from "./components/practice/Grid";
 import { Frontlanguage, griddb } from "./db/Data";
+import { TextStroke } from "./stroke/TextStroke";
 import { GlobalStyled } from "./style/GlobalStyled";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       {/* <ClickEx />
       <ClickHomework /> */}
       <Bganimation time={bubbletime} />
+      <TextStroke />
     </>
   );
 };
