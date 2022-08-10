@@ -20,7 +20,7 @@ const Box = styled.div`
   top: 650px;
   left: 900px;
   transform-style: preserve-3d;
-  animation: ${move} 25s linear infinite;
+  animation: ${move} linear 25s infinite;
 `;
 const TextWrap = styled.div`
   color: white;
